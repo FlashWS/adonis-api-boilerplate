@@ -11,3 +11,4 @@ tmp
 # The development sqlite file
 database/development.sqlite
 .idea
+.DS_Store
