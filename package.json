@@ -14,9 +14,9 @@
     "adonisjs",
     "adonis-app"
   ],
-  "author": "",
+  "author": "Sergey Lisin <sergey@abpgroup.ru>",
   "license": "UNLICENSED",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@adonisjs/ace": "^5.0.8",
     "@adonisjs/auth": "^3.0.7",

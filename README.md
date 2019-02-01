@@ -26,3 +26,39 @@ Run the following command to run startup migrations.
 ```js
 adonis migration:run
 ```
+
+### Start application
+`adonis serve --dev`
+
+### Test API in .http on JetBrains or VScode
+
+```
+###
+POST {{host}}/register
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "test",
+  "email": "test@test.com",
+  "password": "test"
+}
+###
+POST {{host}}/oauth/token
+Content-Type: application/json
+Accept: application/json
+
+{
+  "email": "test@test.com",
+  "password": "test"
+}
+
+> {% client.global.set("auth_token", response.body.token); %}
+
+###
+GET {{host}}/users
+Content-Type: application/json
+Accept: application/json
+Authorization: Bearer {{auth_token}}
+###
+```
