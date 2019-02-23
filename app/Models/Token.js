@@ -1,6 +1,6 @@
 "use strict"
 /*global use*/
-/** @type {typeof import('@adonisjs/lucid/src/Lucid/Model')} */
+/** @import {typeof import('@adonisjs/lucid/src/Lucid/Model')} */
 const Model = use("Model")
 
 class Token extends Model {}

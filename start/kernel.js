@@ -1,6 +1,6 @@
 "use strict"
 /*global use*/
-/** @type {import('@adonisjs/framework/src/Server')} */
+/** @import {import('@adonisjs/framework/src/Server')} */
 const Server = use("Server")
 
 /*
@@ -40,7 +40,7 @@ const globalMiddleware = [
 const namedMiddleware = {
   auth: "Adonis/Middleware/Auth",
   guest: "Adonis/Middleware/AllowGuestOnly",
-  resource: "adonis-resource-middleware",
+  resource: "App/Middleware/ResourceMiddleware",
 }
 
 /*

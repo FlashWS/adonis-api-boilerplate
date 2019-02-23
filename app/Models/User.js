@@ -1,11 +1,30 @@
 "use strict"
 /*global use*/
-/** @type {import('@adonisjs/framework/src/Hash')} */
+/** @import {import('@adonisjs/framework/src/Hash')} */
 const Hash = use("Hash")
 
-/** @type {typeof import('@adonisjs/lucid/src/Lucid/Model')} */
+/** @import {typeof import('@adonisjs/lucid/src/Lucid/Model')} */
 const Model = use("Model")
 
+/**
+ *  @swagger
+ *  definitions:
+ *    User:
+ *      type: object
+ *      properties:
+ *        id:
+ *          type: uint
+ *        username:
+ *          type: string
+ *        email:
+ *          type: string
+ *        password:
+ *          type: string
+ *      required:
+ *        - username
+ *        - email
+ *        - password
+ */
 class User extends Model {
   static boot() {
     super.boot()

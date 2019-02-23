@@ -11,7 +11,7 @@
 |
 */
 
-/** @type {import('@adonisjs/lucid/src/Factory')} */
+/** @import {import('@adonisjs/lucid/src/Factory')} */
 // const Factory = use('Factory')
 
 // Factory.blueprint('App/Models/User', (faker) => {

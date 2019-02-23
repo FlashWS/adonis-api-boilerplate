@@ -6,10 +6,10 @@ module.exports = {
     "source": {
         "include": [".", "README.md"],
         "includePattern": "\\.(js)$",
-        "excludePattern": "(node_modules/|docs)"
+        "excludePattern": "(node_modules/|docs|database)"
     },
     "plugins": [
-        "plugins/markdown", "node_modules/jsdoc-vuejs"
+        "plugins/markdown"
     ],
     "templates": {
         "cleverLinks": false,

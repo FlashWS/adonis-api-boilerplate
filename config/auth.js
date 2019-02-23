@@ -1,6 +1,6 @@
 "use strict"
 /*global use*/
-/** @type {import('@adonisjs/framework/src/Env')} */
+/** @import {import('@adonisjs/framework/src/Env')} */
 const Env = use("Env")
 
 module.exports = {

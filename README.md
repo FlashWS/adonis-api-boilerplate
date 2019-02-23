@@ -10,7 +10,7 @@ This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 6. Edge template engine
 7. Lucid ORM
 8. Migrations and seeds
-9. Resource controller https://github.com/wxs77577/adonis-resource-controller
+9. Resource controller
 10. ESLint
 11. Prettier
 
@@ -32,7 +32,7 @@ adonis migration:run
 
 ### Test API in .http on JetBrains or VScode
 
-```
+``` http request
 ###
 POST {{host}}/register
 Content-Type: application/json
