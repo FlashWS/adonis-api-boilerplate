@@ -1,6 +1,6 @@
 {
   "name": "adonis-api",
-  "version": "0.1",
+  "version": "1.0.0",
   "adonis-version": "4.1.0",
   "description": "The API boilerplate for Adonisjs",
   "main": "index.js",
@@ -8,8 +8,7 @@
     "start": "node server.js",
     "test": "node ace test",
     "nibble": "eslint-nibble --ext .js .",
-    "docs": "node_modules/.bin/jsdoc --configure .jsdoc.js --verbose",
-    "swagger": "swagger-jsdoc -d config/swagger.js app/Models/*.js"
+    "docs": "node_modules/.bin/jsdoc --configure .jsdoc.js --verbose"
   },
   "keywords": [
     "adonisjs",

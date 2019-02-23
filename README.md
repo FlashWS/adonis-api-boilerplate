@@ -13,6 +13,8 @@ This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
 9. Resource controller
 10. ESLint
 11. Prettier
+11. JSDoc
+12. Swagger
 
 ## Setup
 
@@ -29,6 +31,10 @@ adonis migration:run
 
 ### Start application
 `adonis serve --dev`
+
+### API Documentation
+
+http://127.0.0.1:3555/api-docs/
 
 ### Test API in .http on JetBrains or VScode
 
